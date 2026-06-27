@@ -1,0 +1,16 @@
+name: datasets
+
+_target_: utils.dataset.MFDataModule
+data_dir: "/data/cyt2/TF_tracker/datasets/"
+extra_dir: "/data/cyt2/TF_tracker/datasets/"
+dt: 0.0100
+num_workers: 4
+
+# For tracks
+batch_size: 1
+n_train: 20000
+n_val: 20000
+
+augment: False
+global_mode: False
+mixed_dt: True

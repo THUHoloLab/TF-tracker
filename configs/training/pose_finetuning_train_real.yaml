@@ -1,0 +1,7 @@
+# @package _global_
+
+checkpoint_path: /data/cyt2/TF_tracker/checkpoints_simulate/epoch=epoch=2949-step=step=295000.ckpt
+init_unrolls: 13
+max_unrolls: 13
+unroll_factor: 1
+unroll_schedule: [100000] #1000,4000,8000,12000,16000,
